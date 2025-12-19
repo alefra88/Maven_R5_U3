@@ -43,7 +43,7 @@ public class IniciarSesion_CredencialesCorrectas {
         WebElement loginButton = driver.findElement(By.name("login"));
 
         emailInput.sendKeys("efra.rlz@gmail.com"); 
-        passwordInput.sendKeys("_$Al4nROX$_");
+        passwordInput.sendKeys("ejele mi contraseña lol");
         loginButton.click();
 
         WebElement signOutLink = driver.findElement(By.xpath("//a[contains(text(),'Sign out')]"));
